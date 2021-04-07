@@ -8,13 +8,14 @@ https://templatemo.com/tm-525-the-town
 
 html {
   font-size: 18px;
+  overflow-x: auto;
 }
 
 body {
   color: #8f8f8f;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: auto;
   font-size: 1.2rem;
 }
 a {
