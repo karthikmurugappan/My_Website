@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-size: 1.2rem;
 }
 a {
   transition: all 0.3s ease;
@@ -60,7 +61,7 @@ a:focus {
 .tm-btn-primary:focus {
   color: white;
   background-color: #73c1f6;
-}
+} 
 
 /* Navbar */
 
@@ -132,7 +133,7 @@ a:focus {
 /* Hero */
 
 #hero {
-  background-image: url(../img/the-town-bg-01.jpg);
+  background-image: url(../img/landing.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -180,6 +181,25 @@ a:focus {
   text-shadow: 2px 2px 2px #333;
 }
 
+.link-spacing {
+  word-spacing: 40px;
+}
+
+.link-button {
+  font-size: 16px;
+  color: white;
+  padding: 6px 20px;
+  background-color: #3496d8;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.link-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
 .tm-intro-next {
   position: absolute;
   bottom: 100px;
@@ -198,8 +218,13 @@ a:focus {
 }
 
 .tm-down-arrow-link {
-  display: block;
+  /*display: block;*/
   margin-top: 18%;
+}
+
+.pleasework {
+  margin: 0 auto;
+  display: table;
 }
 
 .tm-down-arrow {
@@ -240,7 +265,7 @@ a:focus {
 .tm-work-description {
   max-width: 650px;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .tm-gallery-container {
@@ -269,6 +294,11 @@ a:focus {
 
 .slick-dots li button:before {
   font-size: 26px;
+}
+
+.experience-table {
+  width: 100%;
+  border: 1px solid black;
 }
 
 /* Hover Effect */
@@ -416,7 +446,7 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-image: url(../img/the-town-bg-02.jpg);
+  background-image: url(../img/contactme.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
